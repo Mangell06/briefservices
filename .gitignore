@@ -1,0 +1,105 @@
+# --- SISTEMA Y LOGS ---
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.pid
+*.pem
+
+# --- NEXT.JS / NODE ---
+node_modules/
+.next/
+out/
+.pnp
+.pnp.js
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+
+# --- PYTHON (FastAPI) ---
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+.Python
+__pypackages__/
+*.sage.py
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.pytype/
+.pyre/
+cython_debug/
+
+# --- ENTORNOS VIRTUALES ---
+# Ignora venv en cualquier profundidad (ideal si el back está en una subcarpeta)
+.venv
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.pixi/
+
+# --- ARCHIVOS DE CONFIGURACIÓN DE PAQUETES ---
+build/
+dist/
+sdist/
+.eggs/
+lib/
+lib64/
+*.egg-info/
+*.egg
+.installed.cfg
+MANIFEST
+.pdm-python
+.pdm-build/
+
+# --- VARIABLES DE ENTORNO (CRÍTICO) ---
+.env
+.env.*
+!.env.example
+.envrc
+local_settings.py
+.pypirc
+.streamlit/secrets.toml
+
+# --- BASES DE DATOS Y CACHÉ ---
+db.sqlite3
+db.sqlite3-journal
+*.rdb
+*.aof
+instance/
+.webassets-cache
+.scrapy
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# --- TESTING Y COBERTURA ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+cover/
+.hypothesis/
+
+# --- DOCUMENTACIÓN ---
+docs/_build/
+/site
+
+# --- EDITORES (Opcional - Descomenta si los usas) ---
+#.vscode/
+#.idea/
+#.spyderproject
+#.ropeproject
+
+# --- OTROS ---
+__marimo__/
+.abstra/
